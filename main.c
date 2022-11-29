@@ -18,7 +18,7 @@ int main(void){
 	printf("input p2 coordinate(x y): ");
 	scanf("%d %d", &p2.x, &p2.y);
 	
-	double distance = sqrt((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.x-p2.x));
+	double distance = sqrt((p1.x-p2.x)*(p1.x-p2.x)+(p1.y-p2.y)*(p1.y-p2.y));
 	printf("distance: %1f", distance);
 	
 }
